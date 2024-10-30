@@ -1,0 +1,47 @@
+.user {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+th,
+td {
+  border: 1px double lawngreen;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bottom-section {
+  grid-area: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-current-page {
+  margin: 0 10px;
+  color: blue;
+  font-weight: bold;
+}
